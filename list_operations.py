@@ -36,8 +36,9 @@ def last(input_list):
     'Mar'
 
     """
+    last = input_list[-1]
 
-    return []
+    return last
 
 
 def top(input_list):
@@ -49,8 +50,9 @@ def top(input_list):
     ['Jan', 'Feb']
 
     """
+    top = input_list[:-1]
 
-    return []
+    return top
 
 
 def first_three(input_list):
