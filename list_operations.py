@@ -106,8 +106,10 @@ def inner_four(input_list):
     [6, 9, 12, 15]
 
     """
+    if len(input_list) <= 4:
+        return input_list
 
-    return []
+    return input_list[2:6]
 
 
 def inner_four_end(input_list):
@@ -123,7 +125,7 @@ def inner_four_end(input_list):
 
     """
 
-    return []
+    return input_list[-6:-2]
 
 
 def replace_head(input_list):
@@ -138,7 +140,8 @@ def replace_head(input_list):
 
     """
 
-    pass
+    input_list[0] = 42
+    return
 
 
 def replace_third_and_last(input_list):
