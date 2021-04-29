@@ -64,8 +64,9 @@ def first_three(input_list):
     ['Jan', 'Feb', 'Mar']
 
     """
+    first_three = input_list[0:3]
 
-    return []
+    return first_three
 
 
 def last_five(input_list):
@@ -77,8 +78,9 @@ def last_five(input_list):
     [15, 18, 21, 24, 27]
 
     """
+    last_five = input_list[-5:]
 
-    return []
+    return last_five
 
 
 def middle(input_list):
@@ -90,8 +92,9 @@ def middle(input_list):
     [6, 9, 12, 15, 18, 21]
 
     """
+    middle = input_list[2:-2]
 
-    return []
+    return middle
 
 
 def inner_four(input_list):
